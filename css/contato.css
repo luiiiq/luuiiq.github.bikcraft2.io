@@ -1,0 +1,67 @@
+.contato {
+    background:black ;
+}
+
+.contato-img {
+    padding-left: 4rem;
+}
+
+.contato-grid p {
+    color: var(--texto-header);
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+
+.contato-grid li {
+    color: #b7b7b7;
+    line-height: 3;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contato-grid a {
+    text-decoration: none;
+}
+
+.contato-grid {
+    padding-top: 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info-lista li:hover {
+    color: var(--texto-header);
+}
+footer {
+    color: #b7b7b7;
+    font-size: 1.2rem;
+    padding: 80px;
+}
+
+footer p:hover {
+    color: var(--texto-header);
+}
+
+.contato-num-lista img{
+    padding-right: 30px;
+}
+@media(max-width:800px) {
+    .contato-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contato-num-lista {
+        margin-bottom: 50px;
+    }
+
+    .contato-img {
+        padding-left: 4rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+}

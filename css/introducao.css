@@ -1,0 +1,150 @@
+.introducao {
+    color: var(--texto-header);
+    background: #000;
+}
+
+.introducao img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.introducao-img {
+    margin-bottom: -120px;
+}
+
+.introducao-definicao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 30px;
+    line-height: 1.4;
+    text-align: left;
+    justify-items: left;
+    padding: 30px 70px;
+    margin-left: 30px;
+    max-width: 1200px;
+    position: relative;
+
+}
+
+.introducao h1 {
+    font-size: 3.8rem;
+}
+
+.introducao span, .escolha span, .seguros span, .introducao-bicicletas span , .lojas-locais span, 
+.foto-descricao span
+{
+    color: #ffbb00;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.introducao p {
+    margin-top:0px;
+    font-size: 25px;
+    color: #b2b2b2;
+}
+
+.introducao a {
+    text-decoration: none;
+    color: rgb(37, 32, 30);
+    text-transform: uppercase;
+    background: linear-gradient(#ffbb00,#f2a50c);
+    display: block;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    justify-self: left;
+    box-shadow: 0 4px 6px 0px var(--texto-header);
+}
+
+.introducao a:hover {
+    background: linear-gradient(#ffb60d,#e59317);
+}
+
+@media (max-width:1200px) {
+    .introducao-definicao  {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* position: initial; */
+        position: relative;
+    }
+
+    .img {
+        margin-top: 30px;
+        grid-column: 1;
+        /* position: initial; */
+        overflow: visible;
+        position:inherit;
+        top: 80px;
+    }
+
+    .introducao-definicao h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media(max-width:680px) {
+    .introducao-definicao p {
+        font-size: 18px;
+    }
+
+    .introducao-definicao h1 {
+        font-size: 1.54rem;
+    }
+
+    .introducao-definicao {
+        gap: 0px;
+        margin-left: 0px;
+        padding: 40px 30px;
+    }
+    .img {
+        max-width: 500px;
+        left: 30px;
+    }
+    .introducao a {
+        padding: 18px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    .introducao-definicao p {
+        font-size: 15px;
+    }
+
+    .introducao-definicao h1 {
+        font-size: 2.5rem;
+    }
+
+    .introducao-definicao {
+        gap: 0px;
+        margin-left: 0px;
+        padding: 40px 30px;
+    }
+    .img {
+        max-width: 400px;
+        max-height: 380px;
+    }
+}
+
+@media(max-width:410px) {
+    .introducao-definicao{
+        display: block;
+    }
+
+    .introducao img {
+        max-width: 300px;
+        max-height: 300px ;
+        left: 10px;
+    }
+}

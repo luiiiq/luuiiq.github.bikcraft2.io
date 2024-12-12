@@ -1,0 +1,41 @@
+.termos {
+    padding: 40px 80px;
+}
+
+.termos-condicoes {
+    max-width: 800px;
+}
+
+.termos p {
+    line-height: 1.4;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:435px) {
+    .termos {
+        padding: 30px 40px;
+    }
+
+    .termos p {
+        line-height: 1.3;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:345px) {
+    .termos p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:300px) {
+    .introducao-condicoes h1{
+        padding-left: 20px;
+        font-size: 45px;
+    }
+    .introducao-condicoes p{
+        padding-left: 4px;
+        font-size: 14px;
+    }
+}

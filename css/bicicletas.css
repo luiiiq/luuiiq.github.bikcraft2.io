@@ -1,0 +1,399 @@
+.introducao-bicicletas p{
+    text-transform: uppercase;
+    color: #b7b7b7;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.apresentação-bicicletas {
+    margin-bottom: 5.5rem;
+    max-width:1300px;
+}
+.introducao-bicicletas h1 {
+    color: var(--texto-header);
+    font-size: 3.4rem;
+    padding-left: 70px;
+    margin-top: 0px;
+    padding-bottom: 4rem;
+}
+
+.introducao-bicicletas {
+    background: #111;
+}
+
+.bicicletas-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5rem;
+
+}
+
+.bicicletas-item-img {
+    background-image: url(../img-pagina-principal/nimbus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    height: 330px;
+    width: 800px;
+    margin-left:90px;
+    margin-top: 1.8rem;
+}
+
+.bicicletas-item-img h3 {
+    color: var(--texto-header);
+    font-size: 30px;
+    border: 4px solid #b7b7b7;
+    background: black;
+    text-align: right;
+    justify-self: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    left: -400px;
+}
+.bicicletas-item-img3 h3{
+    left: -380px;
+}
+
+.bicicletas-item-img2 h3 , .bicicletas-item-img3 h3 , .bicicletas-item-img h3{
+    position: relative;
+}
+
+.bicicletas-item-img2 h3 {
+    position: absolute;
+    left: 50px;
+}
+
+
+.bicicletas-item h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.bicicletas-item p {
+    color: rgb(92, 90, 90);
+    margin-left: 0px;
+    line-height: 1.2;
+    margin-right: 4rem;
+}
+
+.bicicletas-item-descricao img {
+    display: block;
+}
+
+.bicicletas-item-descricao h2 {
+    position: relative;
+}
+
+.bicicletas-item-descricao h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 8px;
+    background: #ffbb00;
+    top: -10px;
+    left: 2px;
+}
+
+.bicicletas-item-descricao h2:before {
+    content: url(../img-pagina-bicicletas/top-right.svg);
+    position: absolute;
+    display: block;
+    top: -30px;
+    left: 582px;
+}
+
+
+.bicicletas-item-descricao {
+    margin-left: 2rem;
+}
+.descricao-img {
+    display: flex;
+}
+
+.descricao-img img {
+    width: 27px;
+    padding-bottom: 20px;
+    padding-right: 10px; 
+}
+
+.descricao-img img:first-child {
+    margin-top: 15px;
+}
+
+.descricao-img img:last-child {
+    margin-top: 5px;
+}
+
+.descricao-img p:first-child {
+    margin-top: 15px !important;
+}
+.descricao-vantagens p {
+    grid-column: 1;
+    color: rgb(66, 65, 65);
+    font-size: 17px;
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+.descricao-vantagens {
+    display: grid;
+    grid-template-columns: 2fr auto;
+}
+
+.descricao-vantagens a {
+    background:linear-gradient(rgb(247, 114, 5),rgb(255, 209, 3));
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    place-self: end;
+    padding:15px 40px;
+    font-size: 18px;
+}
+
+.descricao-vantagens a:hover {
+    background:linear-gradient(rgb(247, 102, 5),rgb(235, 173, 3));
+
+}
+
+.bicicletas-item-descricao2 {
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+}
+
+.bicicletas-item-descricao2  h2{
+    color: var(--texto-header);
+}
+
+.bicicletas-item-descricao2 p {
+    color: #b7b7b7;
+}
+
+
+.bicicletas-item-img2 {
+    background-image: url(../img-pagina-bicicletas/magic.jpg);
+    margin-right: 55px;
+    margin-top: 3rem;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.bicicletas2{
+    margin-top: 3rem;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.bicicletas-item2 {
+    background: linear-gradient(to right,#f7f7f7 30%,black 30%);
+
+}
+.bicicletas2 h2 {
+    position: relative;
+}
+.bicicletas2 h2::before {
+    top: 10px;
+    left: 555px;
+}
+
+.bicicletas-item-img3 {
+    background-image: url(../img-pagina-bicicletas/nebula.jpg);
+    margin-right: 55px;
+    margin-top: 3rem;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.bicicletas-item-descricao3 {
+    margin-top: 3rem;
+    margin-left: 0rem;
+}
+
+.bicicletas-item-descricao3 h2::before {
+    left: 545px;
+}
+
+.bicicletas-item-img3 
+{margin-left: 80px;}
+
+@media(max-width:1101px) {
+    .bicicletas-item-img h3 {
+        color: var(--texto-header);
+        font-size: 20px;
+        background: black;
+        text-align: right;
+        justify-self: left;
+        padding: 10px 20px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+    
+    
+    .bicicletas-item-img2 h3 , .bicicletas-item-img3 h3 , .bicicletas-item-img h3{
+        position:initial;
+    }
+    
+    .bicicletas-item-img2 h3 {
+        position: initial;
+    }
+
+    .bicicletas-item-img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        height: 330px;
+        width: 100%;
+        object-fit: cover;
+        margin-left:40px;
+        margin-top: 1.8rem;
+    }
+
+    .bicicletas-item-img2 {
+        margin-top: 2rem;
+    }
+    .bicicletas-item-descricao h2:before {
+        content: "";
+        display:none;
+    }
+
+    .bicicletas2{
+        margin-top: 2rem;
+        margin-left: 0px;
+        padding: 10px 30px;
+        max-width: 700px;
+    }
+
+    .descricao-vantagens a{
+        text-align: center;
+        padding:15px 35px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1051px){
+    .bicicletas-item, .bicicletas-item-descricao {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas-item-img{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 1.8rem;
+    }
+
+    .bicicletas-item-img img {
+        margin-left: 0px;
+        width: 50%;
+        object-fit: cover;
+        object-position: top left;
+        justify-content: left;
+
+    }
+    .bicicletas-item p {
+        word-break: break-all;
+    }
+
+    .bicicletas-item1 p, .bicicletas-item-descricao3 {
+        word-break: keep-all;
+
+    }
+    .bicicletas-item2 {
+    background:black ;
+
+}
+
+}
+
+@media(max-width:616px){
+    .bicicletas-item-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        justify-content: left;
+
+    }
+
+    .bicicletas2 
+    {max-width: 450px;}
+
+    .bicicletas-item {
+        display: block;
+    }
+    .bicicletas-item-descricao2{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:452px){
+    .bicicletas2 h2 {
+        font-size: 25px;
+    }
+
+    .descricao-img img {
+        width: 20px;
+    }
+
+    .descricao-vantagens p {
+        font-size: 15px;
+    }
+
+    .descricao-vantagens a {
+        font-size: 13px;
+    }
+
+    .bicicletas-item-img {
+        height: 200px;
+        object-fit: cover;
+        justify-content: left;
+
+    }
+}
+
+@media(max-width:408px) {
+    .descricao-img img{
+        margin-bottom: 2.7rem;
+    }
+    .bicicletas2 img {
+        margin-top: 2.5rem;
+    }
+
+    .bicicletas2 p {
+        font-size: 14.7px;
+
+    }
+
+    .descricao-vantagens a {
+        align-self: center;
+        padding:10px
+    }
+}
+
+@media(max-width:350px) {
+    .introducao-bicicletas p{
+        font-size: 20px;
+        padding-top: 17px;
+        padding-left: 38px;
+    }
+    .introducao-bicicletas h1 {
+        font-size: 3rem;
+        padding-left: 60px;
+    }
+}
+
+@media(max-width:310px) {
+    .introducao-bicicletas p{
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .introducao-bicicletas h1 {
+        font-size: 2.5rem;
+        padding-left: 50px;
+    }
+}

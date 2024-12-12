@@ -1,0 +1,299 @@
+.seguros {
+    margin-top: 0px;
+    background: #111;
+    max-height: 100%;
+    padding-bottom: 5.5rem;
+}
+
+.seguros h2 {
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-left: 4.5rem;
+    font-size: 4rem;
+    color: var(--texto-header);
+    
+}
+
+
+
+.seguros-item p {
+    color: var(--texto-header);
+}
+
+.seguros-item a {
+    color: var(--texto-header);
+}
+
+.seguros-plano {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.seguros-item:first-child {
+    margin-left: 8rem;
+}
+
+.seguros-item:last-child {
+    margin-left: 7rem;
+    margin-right: 5rem;
+}
+
+.seguros-item {
+    background: black;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+
+.seguros-item h3 {
+    display: inline;
+    color: #b7b7b7;
+    font-size: 2rem;
+    padding-left: 60px;
+}
+
+.seguros h4 {
+    padding: 0px 80px;
+    display: inline;
+    color: var(--texto-header);
+    font-size: 2rem;
+    margin-left: 30px;
+}
+.seguros-item h6{
+    color: #b7b7b7;
+    font-size: 13px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 135px;
+}
+
+.seguros-item p {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    color:var(--texto-header);
+}
+
+.seguros-item p::before {
+    content: "✓";
+    position: absolute;
+    display: block;
+    color: #e4a30b;
+    left: -20px;
+    top: -4px;
+}
+
+.seguros2 h3 {
+    color: #e4a30b;
+}
+
+.seguros-item a{
+    text-transform: uppercase;
+    padding: 15px 35px;
+    display: block;
+    justify-self: left;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seguros1 a{
+    background: rgb(46, 44, 44);
+}
+.seguros1:hover {
+    border: 2px solid #b7b7b7;
+}
+
+.seguros1 a:hover {
+    background: #777474;
+}
+
+.seguros1, .seguros2 {
+    border: 2px solid transparent;
+}
+
+.seguros2:hover {
+    border: 2px solid #F2A50C;
+}
+
+.seguros2 a {
+    background: linear-gradient(#ffb60d,#e59317);
+    color: #111;
+}
+
+.seguros2 a:hover {
+    background: linear-gradient(#f5bd3a,#995e05);
+
+}
+
+@media(max-width:1200px) {
+    .seguros-item:first-child {
+        margin-left: 5rem;
+    }
+    .seguros-item:last-child {
+        margin-left: 6rem;
+    }
+
+    .seguros h4 {
+        padding: 0px 50px;
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+
+    .seguros2 h4 {
+        padding: 0px 40px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:1067px) {
+    .seguros h4,.seguros h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width:964px) {
+    .seguros-plano {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: left;
+        gap: 40px;
+    }
+
+    .seguros-item {
+        justify-items: start;
+        margin-right: 80px;
+
+    }
+
+    .seguros-item h4 {
+        padding-left: 460px;
+    }
+
+    .seguros1 h6 {
+        padding-left: 480px;
+    }
+
+    .seguros2 h6 {
+        padding-left: 470px;
+    }
+    
+    
+}
+
+@media(max-width:918px) {
+    .seguros-item {
+        justify-items: left;
+        margin-right: 50px;
+
+    }
+
+    .seguros-item h4 {
+        padding-left: 400px;
+    }
+
+    .seguros1 h6 {
+        padding-left: 420px;
+    }
+
+    .seguros2 h6 {
+        padding-left: 410px;
+    }
+}
+
+@media(max-width:850px) {
+    .seguros-item h3{
+        padding-left: 30px;
+    }
+
+    .seguros-item h4 {
+        padding-left: 200px;
+    }
+
+    .seguros1 h6 {
+        padding-left: 190px;
+    }
+
+    .seguros2 h6 {
+        padding-left: 175px;
+    }
+}
+
+@media(max-width:626px) {
+    .seguros-item h3, .seguros-item h4{
+        font-size:1.3rem ;
+    }
+
+    .seguros-item a {
+        font-size: 15px;
+    }
+
+    .seguros-item p {
+        font-size: 15px;
+    }
+
+    .seguros h4 {
+        padding-left: 150px;
+    }
+    .seguros1 h6 {
+        padding-left: 130px;
+    }
+
+    .seguros2 h6 {
+        padding-left: 120px;
+    }
+}
+
+@media(max-width:550px) {
+    .seguros h2 {
+        font-size: 3rem;
+    }
+    .seguros-item {
+        padding: 30px;
+    }
+    .seguros-item h4 {
+        display: block;
+        margin-top: 10px;
+        padding-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .seguros-item h6 {
+        margin-left:0px;
+        margin-top: 0px;
+        padding-left: 30px;
+    }
+
+    .seguros-item a {
+        font-size: 12px;
+    }
+
+    .seguros-item a {
+        margin-left:0px;
+    }
+
+    .seguros-item:first-child {
+        margin-left: 3rem;
+    }
+    
+    .seguros-item:last-child {
+        margin-left: 3rem;
+        margin-right: 5rem;
+    }
+}
+@media(max-width:300px) {
+    .seguros-item:first-child {
+        margin-left: 1.4rem;
+    }
+    
+    .seguros-item:last-child {
+        margin-left: 1.4rem;
+        margin-right: 4rem;
+    }
+
+    .seguros h2 {
+        margin-left: 2rem;
+    }
+}

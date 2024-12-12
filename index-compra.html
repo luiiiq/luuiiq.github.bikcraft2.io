@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikcraft- Bicicletas Elétricas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-bg">
+        <div class="header">
+            <a href="./index.html"><img src="./img-pagina-principal/bikcraft.svg" alt=""></a>
+            <nav aria-label="primaria">
+                <ul class="menu">
+                    <li><a href="./index-bicicletas.html">Bicicletas</a></li>
+                    <li><a href="./index-seguros.html">Seguros</a></li>
+                    <li><a href="./index-contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="introducao-bicicletas compra-h1">
+        <p>COTAÇÕES NO SEU EMAIL</p>
+        <h1>solicite um orçamento<span>.</span></h1>
+
+        <section class="orçamento compras-conteudo" >
+            <form class="orçamento container" action="./">
+                <div class="orçamento-produto">
+                    <h2>Bikcraft ou Seguro?</h2>
+
+                    <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+                    <label for="bikcraft">Bikcraft</label>
+
+                    <input type="radio" name="tipo" value="seguro" id="seguro">
+                    <label for="seguro">Seguro</label>
+
+                    <div class="orçamento-conteudo" id="orçamento-bikcraft">
+                        <h2>Escolha a sua</h2>
+
+                        <input type="radio" name="produto" value="nimbus" id="nimbus">
+                        <label for="nimbus">Nimbus Stark <span>R$4999</span></label>
+                        <div class="orçamento-detalhes">
+                            <ul class="orçamento-lista">
+                                <li><img src="./img-pagina-principal/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li><img src="./img-pagina-bicicletas/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img-pagina-bicicletas/velocidade.svg" alt="">50km/h</li>
+                                <li><img src="./img-pagina-principal/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
+                            <img class="orçamento-img" src="./img-pagina-principal/nimbus.jpg" alt="">
+                        </div>
+
+                        <input type="radio" name="produto" value="magic" id="magic">
+                        <label for="magic">Magic Might <span>R$2499</span></label>
+                        <div class="orçamento-detalhes">
+                            <ul class="orçamento-lista">
+                                <li><img src="./img-pagina-principal/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li><img src="./img-pagina-bicicletas/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img-pagina-bicicletas/velocidade.svg" alt="">45km/h</li>
+                                <li><img src="./img-pagina-principal/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
+                            <img class="orçamento-img" src="./img-pagina-principal/magic.jpg" alt="">
+                        </div>
+
+                        <input type="radio" name="produto" value="nebula" id="nebula">
+                        <label for="nebula">Nebula Cosmic <span>R$3999</span></label>
+                        <div class="orçamento-detalhes">
+                            <ul class="orçamento-lista">
+                                <li><img src="./img-pagina-principal/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li><img src="./img-pagina-bicicletas/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img-pagina-bicicletas/velocidade.svg" alt="">40km/h</li>
+                                <li><img src="./img-pagina-principal/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
+                            <img class="orçamento-img" src="./img-pagina-principal/nebula.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="orçamento-conteudo" id="orçamento-seguro">
+                        <h2>Escolha o plano</h2>
+
+                        <input type="radio" name="produto" value="prata" id="prata">
+                        <label for="prata">Prata <span>R$199</span></label>
+
+                        <input type="radio" name="produto" value="ouro" id="ouro">
+                        <label for="ouro">Ouro <span>R$299</span></label>
+                    </div>
+                </div>
+                <div class="orçamento-dados form">
+                    <h2>dados pessoais</h2>
+
+                    <div class="orçamento-nome" >
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nomes" id="nome" placeholder="Seu primeiro nome">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenomes" id="sobrenome" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="orçamento-nome cpf" >
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpfs" id="cpf" placeholder="000.000.000-00">
+                    </div>
+
+                    <div class="orçamento-nome email" >
+                        <label for="email">Email</label>
+                        <input type="text" name="emails" id="email" placeholder="contato@gmail.com">
+                    </div>
+                    <h2>Entrega</h2>
+                    <div class="orçamento-nome" >
+                        <label for="cep">CEP</label>
+                        <input type="text" name="ceps" id="cep">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="numero">Número</label>
+                        <input type="text" name="numeros" id="numero" placeholder="Telefone">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" name="logradouros" id="logradouro" placeholder="Rua, Avenida">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairros" id="bairro">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidades" id="cidade">
+                    </div>
+
+                    <div class="orçamento-nome" >
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estados" id="estado">
+                    </div>
+                    <button>Solicitar Orçamento</button>
+                </div>
+            </form>
+        </section>
+    </main>
+   
+</body>
+</html>

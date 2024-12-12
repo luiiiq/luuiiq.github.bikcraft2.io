@@ -1,0 +1,140 @@
+.escolha {
+    background: var(--texto-header);
+    padding-bottom: 15rem;
+}
+
+.escolha-h1 {
+    padding-top: 10rem;
+    margin-left: 5rem;
+    font-size: 3.5rem;
+}
+
+.flex {
+    margin-left: 0px;
+    display: flex;
+    gap: 38px;
+    padding: 0px 20px;
+    overflow-x: auto;
+}
+.flex img {
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.item h2,p {
+    margin-left: 20px;
+}
+
+.item p {
+    color: rgba(0,0,0,0.7);
+    font-size: 18px;
+}
+
+.item h2 {
+    font-size: 30px;
+    position: relative;
+}
+
+.item:first-child{
+    margin-left: 0px;
+}
+
+.item:last-child {
+    margin-right: 15px;
+}
+
+.item h2::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    background: #ffbb00;
+    top: 15px;
+    left: -20px;
+    transition: 0.3s ease;
+}
+
+.item a:hover h2::before {
+    width: 24px;
+}
+.item a:hover h2{
+    padding-left: 10px;
+    transition: 0.3s ease;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+h2 p {
+    margin-left: 0px;
+    font-weight: normal;
+}
+
+@media(max-width:800px) {
+    .escolha-h1 {
+        padding-top: 8rem;
+        margin-left: 4.5rem;
+        font-size: 3rem;
+        display: block;
+    }
+    .flex img {
+        max-width: 350px;
+    }
+    .item h2 {
+        font-size: 25px;
+    }
+
+    .item p {
+        font-size: 15px;
+    }
+    .item h2::before {
+        width: 13px;
+        height: 7px;
+        background: #ffbb00;
+        top: 10px;
+    }
+}
+
+@media (max-width:640px) {
+    .escolha-h1 {
+        margin-top: 7.5rem;
+        margin-left: 4rem;
+        font-size: 2.5rem;
+    }
+    .flex img {
+        max-width: 330px;
+    }
+    .item h2 {
+        font-size: 22px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:460px) {
+    .escolha-h1 {
+        margin-top: 7rem;
+        margin-left: 3.5rem;
+        font-size: 2rem;
+    }
+    .flex img {
+        max-width: 300px;
+    }
+    .item h2 {
+        font-size: 20px;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+    .item h2::before {
+        width: 12px;
+        height: 6px;
+        background: #ffbb00;
+        top: 5px;
+    }
+}
