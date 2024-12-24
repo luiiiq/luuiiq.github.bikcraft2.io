@@ -95,8 +95,8 @@
     height: 6px;
     background-image: url(../img-pagina-seguros/seta-abrir.svg);
     grid-column: 3;
+    transition: 1;
 }
-
 .seguros-respostas:nth-child(odd) {
     background: #f1f1f1;
     max-width: 1000px;
@@ -107,7 +107,16 @@
     max-width: 1000px;
     padding: 5px 20px;
 }
-
+.js .seguros-perguntas p {
+    display: none;
+}
+.seguros-perguntas p.ativa {
+    display: block;
+}
+.seguros-perguntas h3:hover::after,
+.seguros-perguntas h3[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
 @media(max-width:760px) {
     .seguros-img {
         display: grid;

@@ -6,6 +6,8 @@
     <title>Bikcraft- Bicicletas Elétricas</title>
     <meta name="description" content="Bicicletas Elétricas de alta precisão e qualidade, feitas sob medida para o cliente.">
     <link rel="stylesheet" href="./style.css">
+
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
@@ -37,15 +39,15 @@
         
         -->
 
-    <main class="introducao" aria-label="introdução">
+    <main class="introducao" aria-label="introdução" >
         <div class="introducao-definicao">
             <div>
-                <h1>Bicicletas feitas<br>sob medida<span>.</span></h1>
-                <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a href="./index-bicicletas.html">escolha a sua</a>
+                <h1 data-anime="200" class="fadeInDown">Bicicletas feitas<br>sob medida<span>.</span></h1>
+                <p data-anime="400" class="fadeInDown">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <a data-anime="600" class="fadeInDown" href="./index-bicicletas.html">escolha a sua</a>
             </div>
             <div class="introducao-img">
-                <img class="img" src="./img-pagina-principal/nimbus-home.jpg" alt="">
+                <img data-anime="800" class="img fadeInDown" src="./img-pagina-principal/nimbus-home.jpg" alt="">
             </div>
         </div>
     </main>
@@ -194,6 +196,7 @@
         <footer><p>Bikcraft &copy;Alguns direitos reservados.</p></footer>
     </section>
 
-    
+    <script src="./plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
